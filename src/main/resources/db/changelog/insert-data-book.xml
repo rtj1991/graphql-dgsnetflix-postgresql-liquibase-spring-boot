@@ -1,0 +1,28 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="03" author="thara">
+        <insert tableName="books">
+            <column name="name" value="book_01"></column>
+            <column name="author" valueNumeric="1"></column>
+        </insert>
+        <insert tableName="books">
+            <column name="name" value="book_02"></column>
+            <column name="author" valueNumeric="2"></column>
+        </insert>
+        <insert tableName="books">
+            <column name="name" value="book_03"></column>
+            <column name="author" valueNumeric="3"></column>
+        </insert>
+        <insert tableName="books">
+            <column name="name" value="book_04"></column>
+            <column name="author" valueNumeric="1"></column>
+        </insert>
+        <insert tableName="books">
+            <column name="name" value="book_05"></column>
+            <column name="author" valueNumeric="1"></column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
